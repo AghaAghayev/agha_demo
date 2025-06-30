@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class App {
@@ -31,7 +32,7 @@ public class App {
     }
 
     public static void method2() {
-        List<Integer> nums = new ArrayList<>();
+        List<Integer> nums = new LinkedList<>();
         for (int i = 0; i < 10; i++) {
             nums.add((int) (Math.random() * 100));
         }
